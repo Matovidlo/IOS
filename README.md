@@ -5,7 +5,7 @@ operating systems FIT 1.BIT 2015-2018 Bacherol study.
 
 2. Project - Synchronization of processes in C.
 
-1. Dirstat- Makes statistics of some directory (path).
+1.Dirstat- Makes statistics of some directory (path).
 
 Usage:
 
@@ -15,16 +15,16 @@ Usage:
   
   -i --ignore path/file/regex - ignores some directory/file or filter by regex.
   
-2. Cars - Classic synchronization problem, where is used mutex and semaphores.
+2.Cars - Classic synchronization problem, where is used mutex and semaphores.
 
 Usage:
   -h - help message
   P_Count C_Size [Passenger_wait] [Car_runtime] - 
   
-                    P_Count - passenger count , means how many people are going to be in queue.
-                    C_Size  - size of car, means how many seats is in car or how many people is 1 car able to transport.
-                    Passenger_wait - maximum period of generating process passenger/s [ms] (0 <= Passenger_wait < 5001).
-                    Car_runtime - maximum period of car running [ms] (0 <= Car_runtime < 50001)
+      P_Count - passenger count , means how many people are going to be in queue.
+      C_Size  - size of car, means how many seats is in car or how many people is 1 car able to transport.
+      Passenger_wait - maximum period of generating process passenger/s [ms] (0 <= Passenger_wait < 5001).
+      Car_runtime - maximum period of car running [ms] (0 <= Car_runtime < 50001)
                     
   output is available in file proj2.out if any error occurs it is displayed in file errcode
   
