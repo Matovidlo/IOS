@@ -18,7 +18,8 @@ Usage:
 2.Cars - Classic synchronization problem, where is used mutex and semaphores.
 
 Usage:
-  -h - help message
+  -h - help message.
+  
   P_Count C_Size [Passenger_wait] [Car_runtime] - 
   
       P_Count - passenger count , means how many people are going to be in queue.
@@ -28,6 +29,8 @@ Usage:
                     
   output is available in file proj2.out if any error occurs it is displayed in file errcode
   
-  errcodes- SYS_EXIT_CODE - system exit code == 2 , fail of system call (create semaphore, not enough memory to mmap some space)
-            STD_EXIT_CODE - standard exit code == 1 , 
-            SUCCESS_EXIT_CODE - success exit code == 0, everything is fine. Car finished and every resource is cleared.
+errcodes - 
+
+    SYS_EXIT_CODE - system exit code == 2 , fail of system call (create semaphore, not enough memory to mmap some space).
+    STD_EXIT_CODE - standard exit code == 1.
+    SUCCESS_EXIT_CODE - success exit code == 0, everything is fine. Car finished and every resource is cleared.
